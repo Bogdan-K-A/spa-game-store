@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Bogdan-K-A/game-store/static/css/main.073c9b0a.css",
-    "main.js": "/Bogdan-K-A/game-store/static/js/main.0a6f81da.js",
-    "static/js/787.41265a80.chunk.js": "/Bogdan-K-A/game-store/static/js/787.41265a80.chunk.js",
-    "static/media/logo.svg": "/Bogdan-K-A/game-store/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Bogdan-K-A/game-store/index.html",
-    "main.073c9b0a.css.map": "/Bogdan-K-A/game-store/static/css/main.073c9b0a.css.map",
-    "main.0a6f81da.js.map": "/Bogdan-K-A/game-store/static/js/main.0a6f81da.js.map",
-    "787.41265a80.chunk.js.map": "/Bogdan-K-A/game-store/static/js/787.41265a80.chunk.js.map"
+    "main.css": "/game-store/static/css/main.073c9b0a.css",
+    "main.js": "/game-store/static/js/main.f292e490.js",
+    "static/js/787.41265a80.chunk.js": "/game-store/static/js/787.41265a80.chunk.js",
+    "static/media/logo.svg": "/game-store/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/game-store/index.html",
+    "main.073c9b0a.css.map": "/game-store/static/css/main.073c9b0a.css.map",
+    "main.f292e490.js.map": "/game-store/static/js/main.f292e490.js.map",
+    "787.41265a80.chunk.js.map": "/game-store/static/js/787.41265a80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.0a6f81da.js"
+    "static/js/main.f292e490.js"
   ]
 }
