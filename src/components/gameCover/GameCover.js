@@ -1,7 +1,6 @@
 import './GameCover.css'
 
 export const GameCover = ({ image = '' }) => {
-  console.log(image)
   return (
     <div
       className="game-cover"
