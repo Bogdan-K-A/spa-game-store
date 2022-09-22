@@ -25,3 +25,7 @@ a {
   color: white;
   text-decoration: none;
 }
+
+.secondary-text {
+  color: rgb(80, 82, 84);
+}

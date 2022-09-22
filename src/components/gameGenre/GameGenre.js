@@ -1,5 +1,5 @@
 import './GameGenre.css'
 
-export const GameGenre = () => {
-  return <div className="game-genre">GameGenre</div>
+export const GameGenre = ({ genre = '' }) => {
+  return <div className="game-genre">{genre}</div>
 }

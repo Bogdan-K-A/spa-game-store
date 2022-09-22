@@ -1,6 +1,7 @@
-import { GameItem } from '../components/gameItem/GameItem'
+// import { Outlet } from 'react-router-dom'
+import { GameItem } from '../../components/gameItem/GameItem'
 
-import './HomaPage.css'
+import './HomePage.css'
 
 const GAMES = [
   {
@@ -65,7 +66,7 @@ const GAMES = [
   },
 ]
 
-export const HomaPage = () => {
+export const HomePage = () => {
   return (
     <div className="home-page">
       {GAMES.map((obj) => (
