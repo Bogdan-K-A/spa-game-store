@@ -1,4 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
+import { persistReducer } from 'redux-persist'
+import storage from 'redux-persist/lib/storage'
 
 const cartSlice = createSlice({
   name: 'cart',
@@ -17,5 +19,10 @@ const cartSlice = createSlice({
   },
 })
 
+const persistConfig = {
+  key: 'root',
+  storage,
+}
+
 export const { setItemInCart, deleteItemFromCart } = cartSlice.actions
-export default cartSlice.reducer
+export const cartReducer = persistReducer(persistConfig, cartSlice.reducer)

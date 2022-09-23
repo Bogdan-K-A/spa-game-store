@@ -5,11 +5,12 @@ import { GameCover } from '../../components/gameCover/GameCover'
 import { GameGenre } from '../../components/gameGenre/GameGenre'
 import './GamePage.css'
 
-import { useNavigate, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 export const GamePage = () => {
   const { title } = useParams()
   const game = useSelector((state) => state.game.currentGame)
+
   if (!game) return null
 
   return (

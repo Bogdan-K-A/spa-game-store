@@ -1,6 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit'
+import { persistReducer } from 'redux-persist'
+import storage from 'redux-persist/lib/storage'
 
-const gaemsSlice = createSlice({
+const gameSlice = createSlice({
   name: 'games',
   initialState: {
     currentGame: null,
@@ -12,5 +14,10 @@ const gaemsSlice = createSlice({
   },
 })
 
-export const { setCurrenrGame } = gaemsSlice.actions
-export default gaemsSlice.reducer
+const persistConfig = {
+  key: 'root',
+  storage,
+}
+
+export const { setCurrenrGame } = gameSlice.actions
+export const gamesReducer = persistReducer(persistConfig, gameSlice.reducer)

@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import cartReducer from './cart/reducer'
-import gamesReducer from './games/reducer'
+import { persistStore } from 'redux-persist'
+import { cartReducer } from './cart/reducer'
+import { gamesReducer } from './games/reducer'
 
 export const store = configureStore({
   reducer: {
@@ -8,3 +9,5 @@ export const store = configureStore({
     game: gamesReducer,
   },
 })
+
+export const persistor = persistStore(store)

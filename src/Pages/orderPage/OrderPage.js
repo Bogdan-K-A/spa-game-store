@@ -5,6 +5,7 @@ import { calcTotalPrice } from '../../components/utils'
 
 export const OrderPage = () => {
   const items = useSelector((state) => state.cart.itemsInCart)
+  console.log(items)
 
   if (items.length < 1) {
     return <h1>Ваша корзину пуста</h1>
