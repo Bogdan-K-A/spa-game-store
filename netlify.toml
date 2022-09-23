@@ -1,0 +1,7 @@
+[build]
+publish = "build"
+
+[[redirects]]
+from = '/*'
+to = "/index.html"
+statues = 200
