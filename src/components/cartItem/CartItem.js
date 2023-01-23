@@ -15,7 +15,7 @@ export const CartItem = ({ title, price, id }) => {
     <div className="cart-item">
       <span>{title}</span>
       <div className="cart-item__price">
-        <span>{price} руб.</span>
+        <span>{price} грн.</span>
         <AiOutlineCloseCircle
           size={15}
           className="cart-item__delete-icon"

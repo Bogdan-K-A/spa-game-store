@@ -9,6 +9,7 @@ import './GameItem.css'
 export const GameItem = ({ game }) => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
+
   const handleClick = () => {
     dispatch(setCurrenrGame(game))
     navigate(`/app/${game.title}`)
